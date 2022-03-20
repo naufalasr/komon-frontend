@@ -1,0 +1,14 @@
+/vendor
+.env
+.env.*
+.idea
+/public/static
+!/public/static/default_logo.svg
+.DS_Store
+resources/knowledge-base-data/*
+*.icloud
+.eslintcache
+package-lock.json
+yarn.lock
+debug.log
+*.log
