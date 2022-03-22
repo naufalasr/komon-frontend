@@ -1,6 +1,5 @@
 /vendor
 .env
-.env.*
 .idea
 /public/static
 !/public/static/default_logo.svg
