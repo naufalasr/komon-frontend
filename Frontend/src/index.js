@@ -17,6 +17,5 @@ if (process.env.REACT_APP_USE_SENTRY) {
         tracesSampleRate: 1.0,
     })
 }
-console.log("env url", process.env.REACT_APP_API_URL);
 
 ReactDOM.render(<App />, document.getElementById('root'))
