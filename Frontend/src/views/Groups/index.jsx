@@ -284,15 +284,17 @@ function Groups() {
                                             {group.group_description !== '' && <p className="group-list-item-description">{group.group_description}</p>}
                                             <br />
                                             {group.isInGroup === true ? (
-                                                <Popup
-                                                    trigger={
-                                                        <Button size="small" primary>
-                                                            Join{group.group_private == 1 && <> private</>} group
-                                                        </Button>
-                                                    }
-                                                    content="You are already in this group"
-                                                    position="bottom left"
-                                                />
+                                                null
+                                                //hide button join group
+                                                // <Popup
+                                                //     trigger={
+                                                //         <Button size="small" primary>
+                                                //             Join{group.group_private == 1 && <> private</>} group
+                                                //         </Button>
+                                                //     }
+                                                //     content="You are already in this group"
+                                                //     position="bottom left"
+                                                // />
                                             ) : group.hasAlreadyRequested === true ? (
                                                 <Button as={Link} to={`/app/group/${group.id}/request/${group.requestId}/cancelled`} size="small" negative>
                                                     Cancel the group request.
