@@ -97,7 +97,7 @@ const SignIn = () => {
     }, [email, password, contextValue])
 
     useEffect(() => {
-        document.title = 'Sign In – WorkGroup'
+        document.title = 'Sign In – Komon'
     }, [])
 
     return (
