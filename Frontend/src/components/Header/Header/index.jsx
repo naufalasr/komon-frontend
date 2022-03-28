@@ -1,6 +1,6 @@
 import React, { useState, useEffect, useContext } from 'react'
 import './style.scss'
-import logo from '../../../static/logo.svg'
+import logo from '../../../static/komon_logo.png'
 import { Link, NavLink } from 'react-router-dom'
 import ConfigContext from '../../../store/ConfigContext'
 
