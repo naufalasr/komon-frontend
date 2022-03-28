@@ -128,7 +128,7 @@ class FirstLogin extends React.Component {
         fetch(process.env.REACT_APP_API_URL + `/api/user/uploadBanner`, {
             // Your POST endpoint
             method: 'POST',
-            mode: 'no-cors',
+            mode: 'cors',
             headers: myHeaders,
             body: formData,
         })
@@ -148,7 +148,7 @@ class FirstLogin extends React.Component {
         fetch(process.env.REACT_APP_API_URL + `/api/user/uploadAvatar`, {
             // Your POST endpoint
             method: 'POST',
-            mode: 'no-cors',
+            mode: 'cors',
             headers: myHeaders,
             body: formData,
         })
