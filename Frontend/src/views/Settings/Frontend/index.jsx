@@ -111,7 +111,7 @@ function SettingsFrontend() {
         fetch(process.env.REACT_APP_API_URL + `/api/settings/uploadLogo`, {
             // Your POST endpoint
             method: 'POST',
-            //mode: 'no-cors',
+            mode: 'no-cors',
             headers: headers,
             body: formData,
         })
