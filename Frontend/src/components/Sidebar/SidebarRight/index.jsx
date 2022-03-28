@@ -5,7 +5,7 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { library } from '@fortawesome/fontawesome-svg-core'
 import { faUser, faUserFriends, faCalendarWeek } from '@fortawesome/free-solid-svg-icons'
 import packageJson from '../../../../package.json'
-import logo from '../../../static/logo.svg'
+import logo from '../../../static/komon_logo.png'
 import CookieBanner from '../../App/AppCookieBanner'
 
 library.add(faUser, faUserFriends, faCalendarWeek)
@@ -17,7 +17,7 @@ const SidebarRight = () => {
         <>
             <div className="sidebar_right">
                 <Card>
-                    <Card.Content extra>About WorkGroup {packageJson.version}</Card.Content>
+                    <Card.Content extra>About Komon {packageJson.version}</Card.Content>
                     <Card.Content className="about-card-content">
                         <a className="about-link" target="_blank" rel="noreferrer" href="https://workgroup.berkearas.de/">
                             Project

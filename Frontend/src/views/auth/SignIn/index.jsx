@@ -2,7 +2,7 @@ import React, { useCallback, useEffect, useState, useContext } from 'react'
 import { BrowserRouter as Router, Switch, Route, Link, Redirect } from 'react-router-dom'
 import './style.scss'
 import { Button, Input, Message, Card } from 'semantic-ui-react'
-import logo from '../../../static/logo.svg'
+import logo from '../../../static/komon_logo.png'
 import ConfigContext from '../../../store/ConfigContext'
 import validateEmail from '../../../utils/validateEmail'
 
@@ -97,7 +97,7 @@ const SignIn = () => {
     }, [email, password, contextValue])
 
     useEffect(() => {
-        document.title = 'Sign In – WorkGroup'
+        document.title = 'Sign In – Komon'
     }, [])
 
     return (
@@ -114,7 +114,7 @@ const SignIn = () => {
                         </Message>
                     ) : (
                         <>
-                            <h3>Sign In into WorkGroup</h3>
+                            <h3>Sign In into Komon</h3>
 
                             {error && (
                                 <Message negative>
