@@ -99,7 +99,7 @@ const Header = () => {
             </a>
             <div className="nav-header">
                 <NavLink to="/" className="header__logo">
-                    <img src={headerLogo} alt="Logo" />
+                    <img src={logo} alt="Logo" />
                 </NavLink>
                 <SearchField />
                 <a href="#" onClick={(e) => showHeaderDropdown(e)} className="header__dropdown-button">
